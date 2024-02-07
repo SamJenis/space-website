@@ -1,0 +1,42 @@
+.navbar-destination{
+    margin-top: 80px;
+}
+.nav-ul-destination{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+.nav-ul-destination li{
+    font-family: 'Finlandica', sans-serif;
+    list-style: none;
+    color: rgb(202, 202, 202);
+    cursor: pointer;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+}
+.desti-nav-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.nav-ul-destination li.active,
+.nav-ul-destination li:hover {
+    border-bottom: 2px solid white;
+    color: white;
+}
+@media (max-width:1000px) {
+
+    .navbar-destination{
+        margin-top: 40px;
+    }
+    .nav-ul-destination li{
+        font-size: 14px;
+    }
+    .desti-nav-grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

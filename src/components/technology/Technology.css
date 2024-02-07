@@ -1,0 +1,112 @@
+.launch-grid-div{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.tech-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid rgb(75, 75, 75);
+    outline: none;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    
+}
+.launch-buttons-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.launch-column-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 60px;
+}
+.launch-flex-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    gap: 50px;
+}
+.launch-content p{
+    font-size: 16px;
+    color: rgb(165, 166, 167);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+    margin-top: 30px;
+    max-width: 400px;
+}
+.launch-content h1{
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+.launch-img{
+    margin-top: -50px;
+    width: 550px;
+    margin-right: 50px;
+}
+.active1{
+    background-color: rgb(255, 249, 240);
+    color: black;
+}
+@media (max-width:1100px) {
+    .launch-img{
+        
+        width: 550px;
+        
+    }
+}
+@media (max-width:1000px) {
+    
+    .launch-flex-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+    .launch-img{
+        width: 350px;
+        margin-top: -1px;
+    }
+    .launch-content{
+        max-width: 95%;
+    }
+    .launch-content h1{
+        font-size: 40px;
+    }
+    .launch-column-buttons{
+        margin-top: 0px;
+    }
+    
+
+}
+@media (max-width:786px) {
+   
+    
+    .launch-img{
+        margin-top: 25px;
+        width: 250px;
+        
+    }
+    
+    .launch-content h1{
+        font-size: 36px;
+    }
+    .launch-content p{
+        font-size: 14px;
+        color: rgb(165, 166, 167);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 25px;
+        margin-top: 30px;
+        max-width: 380px;
+    }
+
+}
+
