@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/space-website/static/css/main.2b78adba.css",
+    "main.js": "/space-website/static/js/main.dbdf7dc9.js",
+    "static/js/592.e2d16320.chunk.js": "/space-website/static/js/592.e2d16320.chunk.js",
+    "static/media/revicons.eot": "/space-website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/space-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/space-website/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/space-website/index.html",
+    "main.2b78adba.css.map": "/space-website/static/css/main.2b78adba.css.map",
+    "main.dbdf7dc9.js.map": "/space-website/static/js/main.dbdf7dc9.js.map",
+    "592.e2d16320.chunk.js.map": "/space-website/static/js/592.e2d16320.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b78adba.css",
+    "static/js/main.dbdf7dc9.js"
+  ]
+}
