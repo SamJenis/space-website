@@ -5,7 +5,13 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div style={{backgroundImage:"url(/images/home/background-home-desktop.jpg)",backgroundRepeat:'no-repeat',backgroundSize:'cover' , width:"100%", height:"110vh"}}>
+    <div style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/home/background-home-desktop.jpg)`, 
+      backgroundRepeat: 'no-repeat', 
+      backgroundSize: 'cover', 
+      width: '100%', 
+      height: '110vh' 
+    }}>
         <div style={{paddingTop:'40px'}}>
         <Navbar />
         </div>

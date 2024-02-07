@@ -10,7 +10,13 @@ const Destination = () => {
    const location  = useLocation();
 
   return (
-    <div  style={{ backgroundImage: "url(/images/destination/background-destination-desktop.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: "100%", height: "120vh" }}>
+    <div style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/destination/background-destination-desktop.jpg)`, 
+      backgroundRepeat: 'no-repeat', 
+      backgroundSize: 'cover', 
+      width: '100%', 
+      height: '120vh' 
+    }}>
       <div style={{ paddingTop: '40px' }}>
         <Navbar />
       </div>

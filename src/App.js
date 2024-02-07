@@ -14,7 +14,7 @@ import SpaceCapsule from './components/technology/SpaceCapsule';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='space-website'>
       <div className="App">
         <Routes>
           <Route path='/' element={<Home />} />

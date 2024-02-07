@@ -23,7 +23,13 @@ const Crew = () => {
     }
   };
   return (
-    <div style={{ backgroundImage: "url(/images/crew/background-crew-desktop.jpg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: "100%", height: "120vh" }}>
+    <div style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/crew/background-crew-desktop.jpg)`, 
+      backgroundRepeat: 'no-repeat', 
+      backgroundSize: 'cover', 
+      width: '100%', 
+      height: '120vh' 
+    }}>
         <div style={{ paddingTop: '40px' }}>
         <Navbar />
       </div>
@@ -52,7 +58,7 @@ const Crew = () => {
 
         <div className='crew-img-div'>
         
-            <img src='/images/crew/image-anousheh-ansari.png' alt='Anousheh' className='anousheh-img'/>
+            <img src={`${process.env.PUBLIC_URL}/images/crew/image-anousheh-ansari.png`} alt='Anousheh' className='anousheh-img'/>
             
         </div>
       </div>
@@ -66,7 +72,7 @@ const Crew = () => {
 
         <div className='crew-img-div'>
         
-            <img src='/images/crew/image-douglas-hurley.png' alt='douglas' className='douglas-img'/>
+            <img src={`${process.env.PUBLIC_URL}/images/crew/image-douglas-hurley.png`} alt='douglas' className='douglas-img'/>
             
         </div>
       </div>
@@ -81,7 +87,7 @@ const Crew = () => {
 
         <div className='crew-img-div'>
         
-            <img src='/images/crew/image-victor-glover.png' alt='victor' className='victor-img'/>
+            <img src={`${process.env.PUBLIC_URL}/images/crew/image-victor-glover.png`} alt='victor' className='victor-img'/>
             
         </div>
       </div>
@@ -95,7 +101,7 @@ const Crew = () => {
 
         <div className='crew-img-div'>
         
-            <img src='/images/crew/image-mark-shuttleworth.png' alt='mark' className='mark-img'/>
+            <img src={`${process.env.PUBLIC_URL}/images/crew/image-mark-shuttleworth.png`} alt='mark' className='mark-img'/>
             
         </div>
       </div>

@@ -6,7 +6,7 @@ const Mars = () => {
   return (
     <div className='planets-div'>
         <div className='planet-img-div'>
-        <img src='/images/destination/image-mars.png' alt='mars' className='planet-img'/>
+        <img src={`${process.env.PUBLIC_URL}/images/destination/image-mars.png`} alt='mars' className='planet-img'/>
 
         </div>
         <div className='planet-content'>

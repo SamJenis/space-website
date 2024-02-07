@@ -56,7 +56,7 @@ const [click, setClick] = useState(false);
     
   return (
     <div className='navbar' >
-        <img id='star-logo' src='/images/shared/logo.svg' alt='logo'/>
+        <img id='star-logo' src={`${process.env.PUBLIC_URL}/images/shared/logo.svg`} alt='logo'/>
         <div className='line'></div>
         <nav className={click ? 'navbar-nav active-m' : 'navbar-nav'}>
             <ul className='nav-ul'>
@@ -92,7 +92,7 @@ const [click, setClick] = useState(false);
         </nav>
 
             <div className='menu-icon' >
-                <img onClick={() => setClick(!click)} src={click ? '/images/shared/icon-close.svg' : '/images/shared/icon-hamburger.svg'} alt='menu' />
+                <img onClick={() => setClick(!click)} src={click ? `${process.env.PUBLIC_URL}/images/shared/icon-close.svg`  : `${process.env.PUBLIC_URL}/images/shared/icon-hamburger.svg`} alt='menu' />
             </div>
     </div>
   )

@@ -12,7 +12,7 @@ const SpacePort = () => {
                 
 
                     <div className='launch-img-div'>
-                        <img src='/images/technology/image-spaceport-portrait.jpg' alt='launch' className='launch-img' />
+                        <img src={`${process.env.PUBLIC_URL}/images/technology/image-spaceport-portrait.jpg`} alt='launch' className='launch-img' />
                     </div>
         </div>
   )

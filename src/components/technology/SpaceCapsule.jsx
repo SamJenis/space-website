@@ -13,7 +13,7 @@ const SpaceCapsule = () => {
                 
 
                     <div className='launch-img-div'>
-                        <img src='/images/technology/image-space-capsule-portrait.jpg' alt='launch' className='launch-img' />
+                        <img src={`${process.env.PUBLIC_URL}/images/technology/image-space-capsule-portrait.jpg`} alt='launch' className='launch-img' />
                     </div>
         </div>
   )
